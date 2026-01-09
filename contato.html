@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon sem pasta -->
+    <link rel="shortcut icon" href="favicon_ico2.ico" type="image/x-icon" />
+
+    <title>Anna Bella - Oficial</title>
+  </head>
+
+  <body>
+    <div class="principal">
+      <div class="menu">
+        <ul style="list-style-type: none">
+          <a href="index.html">INÍCIO</a>
+          |
+          <a href="biografia.html">BIOGRAFIA</a>
+          |
+          <a href="pagina3.html">CAMPANHAS PUBLICITÁRIAS</a>
+          |
+          <a href="contato.html">CONTATO</a>
+        </ul>
+
+        <div class="img_index">
+          <!-- Imagem sem pasta -->
+          <img src="capa.png" width="95%" alt="Foto Anna Bella" />
+        </div>
+
+        <div class="fundo">
+          <div class="bio_texto2">
+            <div class="bio">
+              <picture class="img_bio2">
+                <source media="(max-width:750px)" srcset="img_p.png" />
+                <source media="(max-width:1050px)" srcset="img_m.png" />
+                <img src="img_g.png" alt="Foto modelo" />
+              </picture>
+            </div>
+
+            <form id="contactForm">
+              <h2>Contato</h2>
+
+              <label for="nome">Nome</label><br />
+              <input type="text" id="nome" name="nome" required /><br /><br />
+
+              <label for="mensagem">Mensagem</label><br />
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Digite sua mensagem aqui"
+                required
+              ></textarea
+              ><br /><br />
+
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="rodape">
+        <br />
+        <p>E-mail: annabella_oficial@gmail.com</p>
+        <p>Telefone para contato: (011) 99855-4714</p>
+        <p>Rua Oscar Freire, 950 – Jardins, São Paulo - SP</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
